@@ -44,3 +44,7 @@ Next Theme clone一份下來.`git clone https://github.com/theme-next/hexo-theme
 
 `theme: landscape`
 `theme: next`
+
+## Tool
+
+Visual Studio Code [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
