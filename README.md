@@ -51,9 +51,15 @@ deploy:
 
 ## 在Hexo使用Next Theme
 
+quick `npm i hexo-theme-next`  
+
 Next Theme clone一份下來.`git clone https://github.com/theme-next/hexo-theme-next.git`
 在/themes/ 建立一個 `next` 資料夾並把Next Theme所有檔案copy進去.
 修改Hexo _config.yml檔案，把theme改成`next`
 
 `theme: landscape`
 `theme: next`
+
+## Tool
+
+Visual Studio Code [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
