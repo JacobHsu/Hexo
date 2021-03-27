@@ -34,6 +34,21 @@ ERROR Deployer not found: git
 `$doc> hexo d`
 ```
 
+### jacobhsu.github.io
+
+`$doc> yarn build`  hexo generate
+`$doc> yarn deploy` hexo deploy 
+
+_config.yml
+```js
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repository: https://github.com/JacobHsu/jacobhsu.github.io #https://jacobhsu.github.io
+  branch: main
+```  
+
 ## 在Hexo使用Next Theme
 
 Next Theme clone一份下來.`git clone https://github.com/theme-next/hexo-theme-next.git`
